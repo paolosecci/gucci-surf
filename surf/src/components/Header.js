@@ -1,10 +1,13 @@
 import React from 'react';
 import '../App.css';
+import Logo from './Logo.js';
 
 function Header() {
-  return (
-      <h1>This is the base for a header</h1>
-  );
+    return (
+        <div id="header">
+            <Logo />
+        </div>
+    );
 }
 
 export default Header;
